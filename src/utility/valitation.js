@@ -3,7 +3,7 @@ const validate = (val, rules, connectedValue) => {
     for (let rule in rules) {
         switch (rule) {
             case 'isEmail':
-                idValid = isValid && emailValidator(val);
+                isValid = isValid && emailValidator(val);
                 break;
             case 'minLength':
                 isValid = isValid && minLengthValidator(val, rules[rule]);
