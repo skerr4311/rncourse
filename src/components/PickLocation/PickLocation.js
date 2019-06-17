@@ -5,8 +5,8 @@ import MapView from "react-native-maps";
 class PickLocation extends Component {
     state = {
         focusedLocation: {
-            latitude: 174.769118, 
-            longitude: -36.852072,
+            latitude: -36.852072, 
+            longitude: 174.769118,
             latitudeDelta: 0.0122,
             longitudeDelta: 
                 Dimensions.get("window").width / 
