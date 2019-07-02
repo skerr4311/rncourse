@@ -62,7 +62,7 @@ class SharePlaceScreen extends Component {
     };
 
     locationPickHandler = location => {
-        this,setState(prevState => {
+        this.setState(prevState => {
             return {
                 controls: {
                     ...prevState.controls,
